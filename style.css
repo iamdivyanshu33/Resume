@@ -1,0 +1,303 @@
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif; */
+
+@font-face {
+    font-family: head;
+    src: url(/Heading-Now-Variable.ttf);
+}
+
+/* ::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    /* background-color:white;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 100px;
+    border-color: white;
+}  */
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#loader
+{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(189, 189, 189);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loader h1
+{
+    color: black;
+    font-size: 6vmax;
+    font-weight: 600;
+}
+
+#main
+{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding: 15px 120px;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    z-index: 1;
+    background-color: black;
+}
+
+#nav img{
+    height: 45px;
+}
+
+#nav a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px 25px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#nav button{
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0px 10px;
+}
+
+.links
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body-texts
+{
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    left: auto;
+    right: auto;
+    margin-top: 30px;
+}
+
+#body-texts h1{
+    font-size: 11rem;
+    font-weight: 500;
+    font-style: 'poppins';
+    line-height: 12rem;
+    z-index: 99;
+}
+
+#body-texts h1:nth-child(2)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span
+{
+    background-color: #91091E;
+    padding: 25px 60px;
+    line-height: 4rem;
+    border-radius: 100px;
+    margin: 0px 25px;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;;
+}
+
+#images :nth-child(1)
+{
+    position: absolute;
+    height: 300px;
+    top: 20%;
+    border-radius: 10px;
+    left: 5%;
+}
+
+#images :nth-child(2)
+{
+    position: absolute;
+    height: 250px;
+    bottom: 15%;
+    border-radius: 10px;
+    right: 5%;
+}
+
+#images :nth-child(3)
+{
+    position: absolute;
+    height: 250px;
+    top: 10%;
+    border-radius: 10px;
+    right: 25%;
+    filter: brightness(50%);
+}
+
+.announcement
+{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.announcement h3
+{
+    font-weight: 400;
+    margin: 20px;
+}
+
+#bottom
+{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    color: white;
+    margin-top: 40px;
+}
+
+.social-media-links
+{
+    display: flex;
+    gap: 20px;
+}
+
+.scroll-button
+{
+    display: flex;
+    gap: 20px;
+}
+
+.scroll-button h3
+{
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.scroll-button img{
+    height: 23px;
+}
+
+/* second page */
+
+#second-page
+{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding: 1% 7%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.texts
+{
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+}
+
+.texts h1{
+    font-size: 10rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 11rem;
+}
+
+#second-images :nth-child(1)
+{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    filter: brightness(70%);
+    height: 400px;
+    border-radius: 10px;
+    filter: brightness(60%);
+}
+
+#second-images :nth-child(2)
+{
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    height: 300px;
+    border-radius: 10px;
+    filter: brightness(70%);
+}
+
+/* third page */
+.page-1{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
+}
+
+.page-1 h1{
+    font-family: head;
+    font-size: 45vmax;
+    line-height: 35vmax;
+    font-weight: 999;
+    white-space: nowrap;
+    font-stretch: 250%;
+}
+
+.page-2
+{
+    background-color:royalblue;
+    height: 100vh;
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.page-3
+{
+    background-color: rgb(77, 76, 76);
+    height: 100vh;
+    width: 100%;
+}
